@@ -1,0 +1,13 @@
+fastapi==0.104.1
+uvicorn==0.24.0
+torch==2.1.0
+torchaudio==2.1.0
+transformers==4.35.0
+pydantic==2.4.2
+python-multipart==0.0.6
+wget
+gdown
+numpy>=1.20.0
+requests>=2.27.1
+outetts
+uroman

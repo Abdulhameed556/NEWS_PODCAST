@@ -1,0 +1,55 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Model files (these will be downloaded at runtime)
+models/*.ckpt
+models/*.yaml
+models/*.pt
+models/*.bin
+
+# Audio files (generated content)
+audio_files/
+*.wav
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.env
+.venv
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Local configuration
+config.local.py
+.env.local
+
+# Temporary files
+tmp/
+temp/
+
+# Cache directories
+.cache/
+.pytest_cache/
