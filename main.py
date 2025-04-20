@@ -97,7 +97,6 @@ async def root():
         "available_voices": AVAILABLE_VOICES
     }
 
-
 @app.post("/tts", response_model=TTSResponse)
 async def text_to_speech(request: TTSRequest, background_tasks: BackgroundTasks):
     """Convert text to Nigerian-accented speech"""
